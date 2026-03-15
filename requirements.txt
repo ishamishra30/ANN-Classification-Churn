@@ -1,8 +1,8 @@
 streamlit==1.32.2
 tensorflow==2.16.1
-rich<14   # important for Streamlit compatibility
 numpy
 pandas
 scikit-learn
 matplotlib
 seaborn
+rich<14   # match streamlit dependency
