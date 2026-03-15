@@ -48,6 +48,8 @@ The model is **deployed using Streamlit**, providing a user-friendly interface f
 * **Real-Time Predictions:** Model outputs probability and classification (Yes/No)
 * **Visual Feedback:** Prediction results are displayed clearly in the app
 
+  
+
 ### How to Run the App
 
 
