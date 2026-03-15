@@ -8,7 +8,7 @@ The model is **deployed using Streamlit**, providing a user-friendly interface f
 
 ## Dataset
 
-* **Source:** Churn dataset (e.g., Kaggle or internal company dataset)
+* **Source:** Churn dataset (Kaggle dataset)
 * **Features:** Customer demographics, account information, usage patterns, etc.
 * **Target:** `Churn` (Yes/No)
 
@@ -50,22 +50,18 @@ The model is **deployed using Streamlit**, providing a user-friendly interface f
 
 ### How to Run the App
 
-1. Clone the repository:
 
-   ```bash
-   git clone <repo-url>
-   ```
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Streamlit app:
+2. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
    ```
-4. Open the provided local URL in a browser to interact with the deployed model
+3. Open the provided local URL in a browser to interact with the deployed model
 
 ## Results
 
@@ -77,8 +73,4 @@ The model is **deployed using Streamlit**, providing a user-friendly interface f
 
 * Hyperparameter tuning to improve accuracy
 * Experiment with more advanced ANN architectures
-* Add visualizations for overall churn trends and customer insights
-
-
-
-Do you want me to make that version too?
+* Add visualizations for overall churn trends and customer insights.
