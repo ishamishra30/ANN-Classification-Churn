@@ -59,7 +59,7 @@ The model is **deployed using Streamlit**, providing a user-friendly interface f
    pip install -r requirements.txt
    ```
 2. Run the Streamlit app:
-
+   
    ```bash
    streamlit run app.py
    ```
