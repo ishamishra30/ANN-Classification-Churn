@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import keras
+import tensorflow as tf
 import pickle
 
 st.title("Customer Churn Prediction")
@@ -15,7 +15,7 @@ def load_resources():
     st.write("Loading model and encoders...")
 
     try:
-        model = keras.models.load_model("model.h5", compile=False)
+        model = tf.keras.models.load_model("model.h5", compile=False)
         st.write("Model loaded")
 
         with open("label_encoder_gender.pkl", "rb") as f:
